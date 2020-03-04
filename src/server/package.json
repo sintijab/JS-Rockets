@@ -1,0 +1,19 @@
+{
+  "name": "js-and-rockets-server",
+  "version": "1.0.0",
+  "description": "What could go wrong?",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "devDependencies": {
+    "apollo-boost": "^0.4.7",
+    "apollo-server-testing": "^2.10.1",
+    "graphql": "^14.6.0"
+  },
+  "dependencies": {
+    "apollo-datasource-rest": "^0.7.0",
+    "apollo-server": "^2.10.1"
+  }
+}

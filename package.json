@@ -1,0 +1,34 @@
+{
+  "name": "js-and-rockets",
+  "version": "1.0.0",
+  "description": "What could go wrong?",
+  "private": true,
+  "main": "index.html",
+  "scripts": {
+    "start": "npm-run-all --parallel server client",
+    "client": "parcel index.html --open",
+    "server": "cd src/server & npm run start",
+    "build": "parcel build index.html",
+    "test": "cd src/server & jest",
+    "test-watch": "jest --watchAll",
+    "test-coverage": "cd src/server & jest --coverage --colors"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "@babel/preset-env": "^7.4.3",
+    "apollo-boost": "^0.4.7",
+    "apollo-link-rest": "^0.7.3",
+    "babel-jest": "^24.7.1",
+    "npm-run-all": "^4.1.5",
+    "graphql": "^14.6.0",
+    "graphql-tools": "^4.0.7",
+    "jest": "^24.7.1",
+    "parcel-bundler": "^1.6.1"
+  },
+  "dependencies": {
+    "apollo-cache-inmemory": "^1.6.5",
+    "apollo-datasource-rest": "^0.7.0",
+    "body-parser": "^1.19.0",
+    "node-fetch": "^2.6.0"
+  }
+}

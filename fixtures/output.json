@@ -1,0 +1,12 @@
+[
+  {
+    "flight_number": 60,
+    "mission_name": "TESS",
+    "payloads_amount": 1
+  },
+  {
+    "flight_number": 62,
+    "mission_name": "Iridium NEXT Mission 6",
+    "payloads_amount": 2
+  }
+]
